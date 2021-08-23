@@ -185,11 +185,17 @@ nav{
 .section p{
     text-align: justify;
 }
-.footer h3{
-    font-size: 15px;
-    margin: 20px;
+.footer p{
+    font-size: 20px;
+    height: 20%;
+    color: white;
     text-align: center;
-    color: var(--theme-color);
+    background: black;
+    padding-top: 10px;
+    line-height: 30px;
+    padding-bottom: 10px;
+    font-family: 'calibri', sans-serif;
+    
 }
 .contacto{
     font-size: 25px;
