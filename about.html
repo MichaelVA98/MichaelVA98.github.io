@@ -6,31 +6,143 @@
         <title>About</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"/>
+        <link rel="stylesheet" href="css/estilopersonal.css">
     </head>
     <body>
-        <section>
-            <h1>INFORMACIÓN PERSONAL</h1>
-            <h3>OCUPACIÓN</h3>
-            <p>Actualmente soy estudiante de la Carrera Académico Profesional de Ingeniería de Sistemas<br>
-             de la Universidad Nacional de Cajamarca y curso el noveno ciclo.</p><br>
-            <img src="img/sistemas.jpg" heigth="400" width="400">
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <img height="50" width="50" alt="foto de perfil" src="img/perfil.png"/>
+                    <div>MI WEBSITE</div>
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="selected">Home</a></li> 
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+             </nav></br>
+        </header>
+        <h2 class="section-titulo">INFORMACIÓN PERSONAL</h2></br>
 
-            <h3>LUGARES VISITADOS</h3>
-            <p>Los lugares que he visitado son la ciudad de Trujillo, la provincia de San pablo, Cajabamba<br>
-            y Baños del Inca.</p>
-            <img src="img/trujillo.jpg" alt="trujillo" heigth="400" width="400" >   
-            <img src="img/sanpablo.jpg" alt="sanpablo" heigth="400" width="400" > 
-
-            <h3>HOBBIES Y COMIDAS FAVORITAS</h3>
-            <p>Las actividades que me gusta realizar en mis tiempos libres son: hacer ejercicio, tocar guitarra,<br>
-               cantar, hacer videos para Youtube y pasear en moto. Mis platos favoritos son la "Papa a la huancaína"<br>
-               y el "Ceviche"</p>
-            <img src="img/moto.jpg" heigth="200" width="200" > 
-            <img src="img/musica.jpg" heigth="400" width="400"><br>
-            <img src="img/comida.jpg" heigth="300" width="300">  
+        <section class="section-about">
+    
+            <article>   
+                <h2 class="section-subtitulo">EDUCACIÓN</h2><br>
+                <ul class="lista">    
+                    <h3 class="lista-titulo">Educación Superior</h3><br>
+                    <li class="section-parrafo">Universidad Nacional de Cajamarca<br>
+                        Carrera Profesional de Ingeniería de Sistemas-Cajamarca<br>  
+                        2015-Actualidad</li>
+                    <img src="img/sistemas.jpg" heigth="300" width="300" alt="facultad de sistemas" class="imgabout"><br>
+                </ul><br>
+                <ul class="lista"></ul>   
+                    <h3 class="lista-titulo">Inglés</h3>
+                    <li class="section-parrafo">Curso de Inglés - Nivel elemental.
+                        Centro de Idiomas de la Universidad Nacional de Cajamarca<br>
+                        14 septiembre al 21 diciembre del 2018</li>
+                    <img src="img/ingles.jpg" heigth="300" width="300" alt="promo ingles" class="imgabout">
+                </ul>
+                <ul class="lista"><br>    
+                    <h3 class="lista-titulo">Curso de Guitarra</h3>
+                    <li class="section-parrafo">Curso de Música-Extracurricular UNC
+                        Dictado en el ex Banco Agrario-2018</li>
+                    <img src="img/guitarra.jpg" heigth="200" width="200" alt="musica" class="imgabout">
+                </ul>
+            </article>
+                
+            <article></br><br>
+                <h2 class="section-subtitulo" >LUGARES VISITADOS</h2><br>   
+                <ul class="lista">
+                    <h3 class="lista-titulo">Ciudad de Trujillo</h3>
+                    <p class="section-parrafo">Visité la ciudad de Trujillo en Noviembre del año 2013, junto a mis compañeros de promoción
+                        del Colegio "San Ramón". Es una ciudad moderna y a la vez llena de historia: un ejemplo de ello
+                        son los Caballitos de Totora que abundan en Huanchaco, su balneario más emblemático; con ellos se
+                        practica hasta hoy la pesca artesanal. En esta ciudad tuve le placer de conocer la Huaca del sol y la luna
+                        el complejo arqueológico el brujo, la ciudadela de Chan Chan, laguna de Conache, Huanchaco y Pacasmayo.</p>
+                    <img src="img/trujillo.jpg" heigth="300" width="300" alt="ciudad de trujillo" class="imgabout">   
+                </ul>
+                <ul><br>
+                    <h3 class="lista-titulo">Provincia de San Pablo</h3>
+                    <p class="section-parrafo">Visité la Provincia de San Pablo en el año 2012, en un viaje de estudios del Colegio. En estilopersonal
+                        lugar pude visitar su plaza de armas, el sitio arqueológico Kuntur Wasi, su museo y el complejo arqueológico
+                        Layzón.
+                    </p>
+                    <img src="img/museokuntur.jpg"  heigth="300" width="300"  alt="museo kuntur wasi" class="imgabout">
+                    <img src="img/kunturwasi.jpg" heigth="300" width="300"  alt="kuntur wasi" class="imgabout">
+                </ul>
+                <ul><br>
+                    <h3 class="lista-titulo">Minera Yanacocha</h3>
+                    <p class="section-parrafo">Visité la Minera Yanacocha en el año 2018, por medio de una visita técnica, gestionada por
+                    un grupo de ex-estudiantes de la facultad de Ingeniería de Sistemas de la UNC. El yacimiento de 
+                    Yanacocha ​ es una mina aurífera peruana considerada la más grande de América del Sur y la segunda
+                    a nivel mundial. Se ubica entre los distritos de Cajamarca, La Encañada y Baños del Inca y en menor 
+                    medida en el distrito de Tumbadén en el departamento de Cajamarca.
+                    </p>
+                    <img src="img/yanacocha.jpg" alt="trujillo" heigth="300" width="300" alt="minera yanacocha" class="imgabout">
+                </ul>
+            </article>
         </section>
+        <section class="section">
+                <aside>
+                    <article>
+                        <h2 class="section-titulo">HOBBIES</h2>
+                        <ul><br>
+                            <li class="lista-titulo">Hacer deporte</li><br>
+                            <p class="section-parrafo">Mis deportes favoritos son jugar futbol con mis amigos, e ir al gimnasio</p><br>
+                        </ul>
+                        <ul><br>
+                            <li  class="lista-titulo">Tocar guitarra y cantar</li><br>
+                            <p class="section-parrafo">Mi género favorito es el "Rock and Roll, metal y baladas", esto fue lo que me motivo a aprender a tocar 
+                                este bonito instrumento musical: "La guitarra eléctrica".
+                                 </p><br>
+                                 <img src="img/musica.jpg" alt="tocar guitarra" heigth="300" width="300" class="imgabout">
+                        </ul>
+                            
+                        <ul><br>
+                            <li class="lista-titulo">Realizar contenido para Youtube</li><br>
+                            <p class="section-parrafo">En mis momentos libres me dedico a editar videos tutoriales y subirlos a la plataforma de Youtube.
+                            La temática de los videos tutoriales mayormente son de tecnología y de videojuegos.
+                            Aquí abajo te dejo uno de mis videos que podrás encontrar en mi canal</p><br>
+                            <iframe width="400" height="300" src="https://www.youtube.com/embed/bltqNL0Ebp4"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </ul>
+                        <ul><br>
+                            <li class="lista-titulo">Manejar motocicleta</li><br>
+                            <p class="section-parrafo">Me apasionan las motos, por ello me gusta viajar en mi moto, e ir a conocer lugares turísticos y también lo
+                                utilizo como medio de transporte.</p><br>
+                                <img src="img/moto.jpg" alt="manejar moto"  heigth="300" width="300" class="imgabout">
+                        </ul>
+                            
+                    </article>
+                    <article>
+                        <h2 class="section-titulo">COMIDAS FAVORITAS</h2><br>
+                        <ul> 
+                            <li class="lista-titulo">Cuy frito</li><br>
+                            <img src="img/cuyfrito.jpg" heigth="300" width="300" alt="cuy frito" class="imgabout">
+                        </ul><br>
+                        <ul> 
+                            <li class="lista-titulo">Papa a la huancaina</li><br>
+                            <img src="img/comida.jpg" heigth="300" width="300" alt="Papa a la huancaina" class="imgabout">
+                        </ul><br>
+                        <ul> 
+                            <li class="lista-titulo">Chicharrón con mote</li><br>
+                            <img src="img/chicharon.gif" heigth="300" width="300" alt="chicharron con mote" class="imgabout">
+                        </ul><br>
+                        <ul> 
+                            <li class="lista-titulo">Ceviche con frito</li><br>
+                            <img src="img/ceviche.jpeg" heigth="300" width="300" alt="ceviche con frito" class="imgabout"   >
+                        </ul><br>
+                    </article>
+                </aside>
+            </article>
+        </section> 
+        <footer class="footer">
+            <h3>&copy; Mi Sitio Web Personal. Todos los derechos reservados | Michael Velasquez Abanto</h3>
+        </footer>
         <script src="" async defer></script>
-        <a href="index.html">Inicio</a>
+        
     </body>
 </html>

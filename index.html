@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="utf-8">
@@ -7,24 +6,41 @@
         <title>Mi Sitio Web personal</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"/>
+        <link rel="stylesheet" href="css/estilopersonal.css">
     </head>
     <body>
-
-        <header>
-        <h1>MI WEBSITE</h1>
-        <h2>Contenido principal de la página</h2>
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <img height="50" width="50" alt="foto de perfil" src="img/perfil.png"/>
+                    <div>MI WEBSITE</div>
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="selected">Home</a></li> 
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+             </nav></br>
         </header>
-        
-        <nav>
-            <a href="home.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav></br>
-
-    
-        <footer>&copy; Michael Velasquez Abanto</footer>
+             <section class="section">
+                 <div class="div">
+                    <h2 class="section-titulo">BIENVENIDOS A MI SITIO WEB</h2></br>
+                    <img src="img/foto1.jpg" alt="Ingeniero de sistemas" width="200" class="section-img">
+                    <h2 class="section-nombre">Hola, soy <br/>Michael Velasquez Abanto</h2><br>
+                    <h3>Ingeniero de Sistemas</h3><br>
+                    <p class="section-descripcion">
+                       Soy estudiante de Ingeniería de Sistemas, actualmente tengo 23 años de edad, 
+                       y les doy la bienvenida a mi Website, donde conocerán un pocos más acerca de mi,
+                       así como mis estudios, lugares visitados, mis hobbies, y mi contacto.
+                    </p>
+                 </div>
+            </section>
+            <footer class="footer">
+                <h3>&copy; Mi Sitio Web Personal. Todos los derechos reservados | Michael Velasquez Abanto</h3>
+            </footer>
         <script src="" async defer></script>
-
     </body>
 </html>
