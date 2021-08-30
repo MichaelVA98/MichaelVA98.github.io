@@ -30,22 +30,38 @@
                 <li><a class="logo-youtube" href="https://www.youtube.com/channel/UCZOT-YkCF5O7jGWK6wC3a0g" target="_blank"><i class="fa fa-youtube youtube icon"></i></a></li>
             </ul>
         </div>
-        <header class="header">
-            <nav class="nav">
-                <a href="index.html" class="logo">
-                    <img height="50" width="50" alt="foto de perfil" src="img/perfil.png"/>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary" id="menu">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img height="50" width="50" alt="foto de perfil" src="img/perfil.png" class="d-inline-block align-text-top"/>
                     <div>MI WEBSITE</div>
                 </a>
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="selected">Home</a></li> 
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-             </nav></br>
-        </header>
+                <div class="collapse navbar-collapse flex-grow-0 p-md-4" id="navbarSupportedContent"></div>
+                <ul class="nav justify-content-end nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+                </div>
+             </nav>
         <h2 class="section-titulo">INFORMACIÓN PERSONAL</h2></br>
 
         <section class="section-about">
+
+            <div class="card" style="width: 18rem;">
+                <img src="img/sistemas.jpg" heigth="300" width="300" alt="facultad de sistemas"  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"> Carrera Profesional de Ingeniería de Sistemas-Cajamarca.</p>
+                </div>
+              </div>
     
             <article class="article-educacion"><br>  
                 <h2 class="section-subtitulo">EDUCACIÓN</h2><br>
@@ -157,10 +173,11 @@
                 </aside>
             </article>
         </section> 
-        <footer class="footer">
-            <p>&copy; Mi Sitio Web Personal. Todos los derechos reservados | Michael Velasquez Abanto</p>
+        <footer>     
+            <div class="conteiner-footer">
+                <h3 class="titulo-final">&copy; Mi Sitio Web Personal. Todos los derechos reservados | Michael Velasquez Abanto</h3>
+            </div>
         </footer>
-        <script src="" async defer></script>
-        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     </body>
 </html>
