@@ -317,6 +317,8 @@ body h1 {
 #section-contacto{
     text-align: center;
     width: 100%;
+    min-height: 50px;
+    max-height: 50px;
     margin-bottom: 20px;
     padding: 7px;
     justify-content: center;
