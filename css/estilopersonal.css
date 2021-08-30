@@ -106,9 +106,55 @@ body{
     font-size: 20pt;
     color: white;
 }
-.cuerpo-contenedor{
-    padding-top: 20%;
+/*---------About------------*/
+.contenedor {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    list-style: none;
 }
+
+.contenedor .info {
+    width: 30%;
+    background: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    transition: all 0.20s;
+}
+
+.contenedor .info:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color:rgb(1, 140, 199);
+}
+
+.contenedor .info img {
+    width: 60%;
+    height: 50%;
+    padding: 2px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 70%;
+    color: #11385D;
+    text-align: center;
+    padding: 20px;
+}
+
+body h1 {
+    text-align: center;
+    text-decoration:chocolate;
+}
+
 
 @media screen and (max-width:900px){
     header{
@@ -189,6 +235,17 @@ body{
     -o-background-size: cover;
     background-size: cover;
 }
+.mapa{
+    width: 60%;
+   display: flex;
+   margin-left: 22%;
+   flex-wrap: wrap;
+   justify-content: left;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   background-color: rgb(193, 3, 72);
+   opacity: 1;
+}
 
 
 
@@ -257,10 +314,13 @@ body{
 #boton:hover {
     cursor: pointer;
 }
-
-
-
-
+#section-contacto{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    justify-content: center;
+}
 
 
 /*Seccion footer*/
