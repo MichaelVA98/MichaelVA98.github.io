@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+.body-lab05{
+    background: rgb(187, 251, 236);
+}
+.section-lab05 h1{
+    font-size: 30px;
+    color:rgb(0, 0, 0)
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    text-align: center;
+}
+#nombres{
+    width: 270px;
+}
+#fecha-nacimiento{
+    width: 270px;
+}
+#formulario{
+    padding-left: 30px;
+    margin: 30px;
+}
+#formulario2{
+    margin: 30px;
+    padding-left: 60px;
+    padding-right: 0px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+#formulario3{
+    margin: 30px;
+    padding-left: 0px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+#colum1{
+    padding-left: 150px;
+    padding-right: 10px;
+    margin: 4px 2px;
+}
+
+#botones{
+    float: right;
+}
+.label1{
+    color: white;
+    background: rgb(50, 105, 172);
+    width: 180px;
+    height: 29px;
+    padding-left: 10px;
+    margin-bottom: 6px;
+    padding-right: 0px;
+    padding-top: 3px;
+}
+.label2{
+    color: white;
+    background: rgb(202, 57, 31);
+    width: 170px;
+    height: 29px;  
+    padding-left: 10px;
+    margin-bottom: 6px;
+    padding-right: 0px;
+    padding-top: 3px;
+}
+
+#boton-extraer{
+    border-radius: 5px;
+    background: rgb(255, 166, 0);
+    border-color: white;
+    color: white;
+    margin-top: 25px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+   
+    
+}
+#boton-colorear{
+    border-radius: 5px;
+    background: rgb(202, 57, 31);
+    border-color: rgb(216, 63, 63);
+    color: white;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
