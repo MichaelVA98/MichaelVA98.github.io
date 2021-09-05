@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Allison&family=Noto+Sans+JP:wght@700&family=Rampart+One&family=Rubik:ital,wght@1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Anton&family=Ubuntu&family=Varela+Round&display=swap');
 /*========== Cabecera de la pagina ============*/
 
 body{
@@ -11,19 +11,23 @@ body{
     
 }
 .body-index{
-    background: url('/img/nubes.jpg') no-repeat;
+    background-color: white;
 }
 .section-cuerpo{
     width: 500px;
     padding-bottom: 3px;
     background: rgba(0, 0, 0, 0.8);
     margin: 0 auto;
-    margin-top: 4%;
+    margin-top: 10%;
     margin-bottom: 2%;
-    padding: 60px;
+    padding: 40px;
     color: white;
     text-align: center;
     padding-top: 4%;
+    font-family: 'Varela Round', sans-serif;
+    border-radius:7%;
+    opacity: 100%;
+
 
 }
 .section-titulo{
@@ -49,6 +53,15 @@ body{
     max-width: 450px;
     text-align: justify;
     
+}
+.section-parrafo{
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 42px;
+    padding: 0.5em 0.6em;
+    margin: 10px;
+    list-style: none;
+    font-family: 'Varela Round', sans-serif;
 }
 .section-img {
     width: 50%;

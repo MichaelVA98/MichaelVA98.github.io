@@ -20,18 +20,21 @@ h1{
 
 .borde{
     border: solid rgb(201, 151, 14);
-    width: 270px;
+    width: 300px;
+    height: 40px;
+    margin-top: 6px;
+    font-family: 'Inter', sans-serif;
 }
 
 #formulario{
-    padding-left: 30px;
-    margin: 30px;
+    padding-left: 40px;
+    margin: 24px;
 }
 #formulario2{
     margin: 30px;
     padding-left: 60px;
     padding-right: 0px;
-    padding-top: 3px;
+    padding-top: 6px;
     padding-bottom: 1px;
 }
 #formulario3{
@@ -49,34 +52,40 @@ h1{
 #botones{
     float: right;
 }
-.label1{
+.datos{
     color: white;
-    background: rgb(50, 105, 172);
-    width: 180px;
-    height: 29px;
+    font-family: 'Inter', sans-serif;
+    background: rgb(12, 93, 191);  
+    width: 190px;
     padding-left: 10px;
     margin-bottom: 6px;
     padding-right: 0px;
-    padding-top: 3px;
+    padding-top: 8px;
+    height: 40px;
+    margin-top: 6px;
 }
-.label2{
+.salida{
     color: white;
-    background: rgb(202, 57, 31);
-    width: 170px;
-    height: 29px;  
+    font-family: 'Inter', sans-serif;
+    background: rgb(202, 37, 8);
+    width: 185px;
+    height: 40px;
     padding-left: 10px;
     margin-bottom: 6px;
     padding-right: 0px;
-    padding-top: 3px;
+    padding-top: 8px;
 }
 
 #boton-extraer{
     border-radius: 5px;
     background: rgb(255, 166, 0);
+    font-family: 'Inter', sans-serif;
     border-color: white;
-    width: 150px;
+    font-size: 18px;
+    width: 160px;
+    height: 40px;
     color: white;
-    margin-top: 25px;
+    margin-top: 10px;
     padding-left: 30px;
     padding-right: 20px;
     padding-top: 3px;
@@ -85,11 +94,14 @@ h1{
 }
 #boton-colorear{
     border-radius: 5px;
-    background: rgb(202, 57, 31);
-    border-color: rgb(216, 63, 63);
-    width: 150px;
+    background: rgb(202, 37, 8);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    width: 160px;
+    height: 40px;
     color: white;
     margin-bottom: 10px;
+    margin-top: 30px;
     padding-left: 30px;
     padding-right: 20px;
     padding-top: 3px;

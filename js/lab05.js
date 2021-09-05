@@ -27,7 +27,7 @@ function obtenerDatos(){
 
         //Obtenemos longitud del apellido
         var longitud = posicion[0] + posicion[1];
-        document.getElementById("LongApellido").value = longitud.length + " dígitos.";
+        document.getElementById("LongApellido").value = longitud.length + " letras";
 
         //Obtenemos la edad
         //let edadActual = obtenerEdad();
@@ -75,6 +75,7 @@ function obtenerDatos(){
         }
     }
 
+    //Creamos una función para obtener la edad
     function obtenerEdad (){
         let fecha = document.getElementById("fechaNacimiento").value.split('-');
         let anioNacimiento = fecha[0];
@@ -95,6 +96,38 @@ function obtenerDatos(){
         return edad; 
      }    
 }
+
+//Creamos una función para modificar el color
+let cambiar = 1;
+
+function modificarColor() {
+
+    if (cambiar) {
+        document.getElementById("label1").style.backgroundColor = "rgb(202, 37, 8)";
+        document.getElementById("label2").style.backgroundColor = "rgb(202, 37, 8)";
+        document.getElementById("label3").style.backgroundColor = "rgb(202, 37, 8)";
+        document.getElementById("label4").style.backgroundColor = "rgb(202, 37, 8)";
+        document.getElementById("label5").style.backgroundColor = "rgb(202, 37, 8)";
+        document.getElementById("boton-colorear").style.backgroundColor = "rgb(12, 93, 191)";
+        document.getElementById("label6").style.backgroundColor = "rgb(12, 93, 191)";
+        document.getElementById("label7").style.backgroundColor = "rgb(12, 93, 191)";
+        document.getElementById("label8").style.backgroundColor = "rgb(12, 93, 191)";
+        cambiar = 0;
+    } else {
+        document.getElementById("label1").style.backgroundColor = "rgb(12, 93, 191)";
+        document.getElementById("label2").style.backgroundColor = "rgb(12, 93, 191)";
+        document.getElementById("label3").style.backgroundColor = "rgb(12, 93, 191)";
+        document.getElementById("label4").style.backgroundColor = "rgb(12, 93, 191)";
+        document.getElementById("label5").style.backgroundColor = "rgb(12, 93, 191)";
+        document.getElementById("boton-colorear").style.backgroundColor =  "rgb(202, 37, 8)";
+        document.getElementById("label6").style.backgroundColor = "rgb(202, 37, 8)";
+        document.getElementById("label7").style.backgroundColor = "rgb(202, 37, 8)";
+        document.getElementById("label8").style.backgroundColor = "rgb(202, 37, 8)";
+        cambiar = 1;
+    }
+
+}
+
 
   
      

@@ -62,15 +62,15 @@
                         <div class="row row-cols-auto">
                         <div class="col">
                         <form id="formulario">
-                            <label class="label1">Apellidos y Nombres: </label>
+                            <label class="datos" id="label1">Apellidos y Nombres: </label>
                             <input type="text" name="nombres" id="idNombres" class="borde" placeholder="Ingrese apellidos y nombres"></br>
-                            <label class="label1">Fecha de Nacimiento: </label>
+                            <label class="datos" id="label2">Fecha de Nacimiento: </label>
                             <input type="date" id="fechaNacimiento" class="borde" min="1940-01-01" max="2021-12-31"> 
                         </form>
                         </div>
                         <div class="col">
                             <button type="button" id="boton-extraer">Extraer</button>
-                            <button type="button" id="boton-colorear">Colorear</button>
+                            <button type="button" id="boton-colorear" onclick="modificarColor()">Colorear</button>
                             </div>
                               
                         </div>
@@ -82,21 +82,21 @@
                       <div class="row row-cols-auto">
                       <div class="col" id="formulario2">
                         <form name=registro>
-                          <label class="label1">Apellido paterno: </label>
+                          <label class="datos" id="label3">Apellido paterno: </label>
                           <input type="text" name="paterno" id="idPaterno" class="borde"></br>
-                          <label class="label1">Apellido materno: </label>
+                          <label class="datos" id="label4">Apellido materno: </label>
                           <input type="text" name="materno"  id="idMaterno" class="borde"><br>
-                          <label class="label1">Nombres: </label>
+                          <label class="datos" id="label5">Nombres: </label>
                           <input type="text" name="nombre" id="idNombre" class="borde">  
                         </form>
                       </div>
                       <div class="col" id="formulario3">
                         <form>
-                          <label class="label2">Longitud del apellido: </label>
+                          <label class="salida" id="label6">Longitud del apellido: </label>
                           <input type="text"  name="longitud" id="LongApellido" class="borde"></br>
-                          <label class="label2">Edad: </label>
+                          <label class="salida" id="label7">Edad: </label>
                           <input type="text" id="idedad" class="borde"><br>
-                          <label class="label2" class="borde">Mes en letras: </label>
+                          <label class="salida" id="label8">Mes en letras: </label>
                           <input type="text" name="mes" id="idMes" class="borde">  
                         </form>
                       </div>
