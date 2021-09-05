@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
 .body-lab05{
     background: rgb(187, 251, 236);
+    
 }
 .section-lab05 h1{
     font-size: 30px;
@@ -8,16 +14,15 @@
 }
 h1{
     font-family: 'Inter', sans-serif;
-    text-align: center;
     font-weight: bolder;
-    text-align: center;
+    padding-left: 1px;
 }
-#nombres{
+
+.borde{
+    border: solid rgb(201, 151, 14);
     width: 270px;
 }
-#fecha-nacimiento{
-    width: 270px;
-}
+
 #formulario{
     padding-left: 30px;
     margin: 30px;
@@ -69,23 +74,24 @@ h1{
     border-radius: 5px;
     background: rgb(255, 166, 0);
     border-color: white;
+    width: 150px;
     color: white;
     margin-top: 25px;
     padding-left: 30px;
-    padding-right: 50px;
+    padding-right: 20px;
     padding-top: 3px;
-    padding-bottom: 3px;
-   
+    padding-bottom: 3px; 
     
 }
 #boton-colorear{
     border-radius: 5px;
     background: rgb(202, 57, 31);
     border-color: rgb(216, 63, 63);
+    width: 150px;
     color: white;
     margin-bottom: 10px;
     padding-left: 30px;
-    padding-right: 50px;
+    padding-right: 20px;
     padding-top: 3px;
     padding-bottom: 3px;
 }
