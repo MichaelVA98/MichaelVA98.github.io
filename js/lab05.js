@@ -26,8 +26,7 @@ function obtenerDatos(){
         document.getElementById("idNombre").value = posicion[2] + " " + posicion[3];
 
         //Obtenemos longitud del apellido
-        var longitud = posicion[0] + posicion[1];
-        document.getElementById("LongApellido").value = longitud.length + " letras";
+        document.getElementById("LongApellido").value = posicion[0].length + " letras";
 
         //Obtenemos la edad
         //let edadActual = obtenerEdad();
@@ -61,7 +60,7 @@ function obtenerDatos(){
                 document.getElementById("idMes").value = "Agosto";
                 break;
             case '09':
-                document.getElementById("idMes").value = "Septiembre";
+                document.getElementById("idMes").value = "Setiembre";
                 break;
             case '10':
                 document.getElementById("idMes").value = "Octubre";
