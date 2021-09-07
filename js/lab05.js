@@ -26,7 +26,8 @@ function obtenerDatos(){
         document.getElementById("idNombre").value = posicion[2] + " " + posicion[3];
 
         //Obtenemos longitud del apellido
-        document.getElementById("LongApellido").value = posicion[0].length + " letras";
+        let longitud = posicion[0] + posicion [1];
+        document.getElementById("LongApellido").value = longitud.length + " letras";
 
         //Obtenemos la edad
         //let edadActual = obtenerEdad();
